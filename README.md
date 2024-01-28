@@ -6,7 +6,7 @@ scripts for running the DeepHardMark algorithm.
 
 ## DeepHardMark+
 
-An extension of DeepHardMark, which significantly improves on both the efficiency and effectiveness of of embedding watermarks has been developed. Our implementation of this improved algorithm can be found in this [repo](https://github.com/Jfcleme/Hardware-Watermarks-for-Deep-Learning-Systems). 
+An extension of DeepHardMark, which significantly improves on both the efficiency and effectiveness of embedding watermarks has been developed. Our implementation of this improved algorithm can be found in this [repo](https://github.com/Jfcleme/Hardware-Watermarks-for-Deep-Learning-Systems). 
 
 
 ## Cite 
