@@ -1,0 +1,39 @@
+C:\Users\jfcle\Anaconda3\envs\SpareAdversarialAttack\python.exe "C:\Program Files\JetBrains\PyCharm 2021.1.2\plugins\python\helpers\pydev\pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 62324 --file C:/Users/jfcle/PycharmProjects/MLProjects/MyProjects/watermark/main_cifar10_basic.py
+Connected to pydev debugger (build 211.7442.45)
+
+{
+Loading CIFAR10 from local folder:
+C:\Users\jfcle\PycharmProjects\MLResources\Datasets\Images\CIFAR10\
+...
+Successfully loaded CIFAR10
+}
+
+Origin Label:2, Target Label:0
+target sparse k : 1
+1.0
+tensor([0], device='cuda:0')
+##############################
+image=Internal Activation, clean-img-prediction=2, target-attack-class=0, adversarial-image-prediction=0
+statistic information: success-attack-image/total-attack-image= 1/1, attack-success-rate=1.000000, L0=50.000000, L1=442.912231, L2=28.776567, L-inf=7.249137
+##############################
+
+
+Benign accuracy: 79.96666666666667
+Modded(50.0) accuracy: 58.666666666666664
+Reduced(4) accuracy: 65.93333333333334
+Target Functional(4) accuracy: 100
+Benign Functional(4) accuracy: 79.96666666666667
+
+
+Aggregate Results -
+Success: 7996.666666666667
+Benign Acc: 79.96666666666667
+Embedded MACs ||: 1.0
+Embedded MACs %: 0.390625
+Embedded OPs ||: 4
+Embedded OPs %: 0.03125
+Delta Acc: 0.0
+Normalized Li: 0.41712594
+Unintentional Trigger: 0.0
+
+Process finished with exit code 0
